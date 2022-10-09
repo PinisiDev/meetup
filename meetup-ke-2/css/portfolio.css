@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: currentColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* Header */
+header {
+  background: #008e34;
+}
+header nav > ul {
+  list-style: none;
+  text-align: center;
+}
+header nav > ul li {
+  display: inline-block;
+  padding: 1rem 0.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+/* Hero Section */
+#hero-section {
+  text-align: center;
+  padding: 5rem;
+}
+#hero-section img {
+  width: 150px;
+  border-radius: 9999rem;
+}
+
+#about,
+#projects,
+#skills,
+#contact {
+  padding: 1rem;
+}
+
+/* Projects */
+.project-card {
+  border: 3px solid #008e34;
+  margin: 0.5rem;
+}
+.project-card .project-image {
+  width: 100%;
+}
+.project-card .project-body {
+  padding: 1rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+/* Skills */
+#skills ul {
+  padding-left: 2rem;
+}
+
+/* Contact */
+form {
+  padding: 0 1rem;
+}
+
+input,
+textarea {
+  display: block;
+  border: 3px solid #008e34;
+  padding: 0.2rem 0.5rem;
+  width: 100%;
+}
+
+button {
+  border: 3px solid #008e34;
+  background-color: #008e34;
+  padding: 0.2rem 0.5rem;
+  color: white;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=portfolio.css.map */
