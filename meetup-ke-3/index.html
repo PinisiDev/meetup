@@ -1,149 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
     <style>
-        body {
-            margin: 0;
-        }
+      body {
+        margin: 0;
+      }
 
-        header {
-            background-color: red;
-            color: white;
-            padding: .2rem 1rem;
-        }
+      header {
+        background-color: red;
+        color: white;
+        padding: 0.2rem 1rem;
+      }
 
+      a {
+        color: currentColor;
+      }
 
-        a {
-            color: currentColor;
-        }
+      header > nav > ul {
+        text-align: center;
+      }
 
-        header>nav>ul {
-            text-align: center;
-        }
+      header > nav > ul > li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 0.5rem;
+      }
 
-        header>nav>ul>li {
-            list-style: none;
-            display: inline-block;
-            margin: 0 .5rem;
-        }
+      #hero {
+        text-align: center;
+        padding: 5rem;
+      }
 
-        #hero {
-            text-align: center;
-            padding: 5rem;
-        }
+      #hero img {
+        border-radius: 100rem;
+      }
 
-        #hero img {
-            border-radius: 100rem;
-        }
+      #about,
+      #projects,
+      #skills,
+      #contact {
+        padding: 1rem;
+      }
 
+      .project-card {
+        border: 5px solid red;
+        margin-bottom: 1rem;
+      }
 
-        #about,
-        #projects,
-        #skills,
-        #contact {
-            padding: 1rem;
-        }
+      .project-card img {
+        width: 100%;
+      }
 
-        .project-card {
-            border: 5px solid red;
-            margin-bottom: 1rem;
-        }
-
-        .project-card img {
-            width: 100%;
-        }
-
-        .project-card .project-body {
-            padding: 1rem;
-        }
+      .project-card .project-body {
+        padding: 1rem;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#about">Tentang</a></li>
-                <li><a href="#project">Projek</a></li>
-                <li><a href="#skills">Skill</a></li>
-                <li><a href="#contact">Kontak</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#project">Projek</a></li>
+          <li><a href="#skills">Skill</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
     </header>
 
-
     <main>
-        <section id="hero">
-            <img src="./img/user.jpg" alt="Foto saya" width="150">
-            <h1>Nama</h1>
-            <p>Lorem ipsum dolor sit amet.</p>
-        </section>
+      <section id="hero">
+        <img src="./img/user.jpg" alt="Foto saya" width="150" />
+        <h1>Nama</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </section>
 
-        <section id="about">
-            <h1>Tentang</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem quos totam consequatur natus qui
-                reprehenderit vitae hic, laboriosam cumque in nulla fugit. Veritatis hic iusto impedit? Dicta,
-                laboriosam sint.</p>
-        </section>
+      <section id="about">
+        <h1>Tentang</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem quos
+          totam consequatur natus qui reprehenderit vitae hic, laboriosam cumque
+          in nulla fugit. Veritatis hic iusto impedit? Dicta, laboriosam sint.
+        </p>
+      </section>
 
-        <section id="projects">
-            <h1>Projek</h1>
+      <section id="projects">
+        <h1>Projek</h1>
 
-            <div class="container">
-                <div class="project-card">
-                    <img src="https://images.unsplash.com/photo-1664575196412-ed801e8333a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
-                        alt="Projek 1">
-                    <div class="project-body">
-                        <h2>Tokopedia</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, in.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="https://images.unsplash.com/photo-1664575196412-ed801e8333a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
-                        alt="Projek 1">
-
-                    <div class="project-body">
-                        <h2>Shoope</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, in.
-                        </p>
-                    </div>
-                </div>
+        <div class="container">
+          <div class="project-card">
+            <img
+              src="https://images.unsplash.com/photo-1664575196412-ed801e8333a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+              alt="Projek 1"
+            />
+            <div class="project-body">
+              <h2>Tokopedia</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus, in.
+              </p>
             </div>
-        </section>
+          </div>
 
-        <section id="skills">
-            <h1>Skill</h1>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JS</li>
-            </ul>
-        </section>
+          <div class="project-card">
+            <img
+              src="https://images.unsplash.com/photo-1664575196412-ed801e8333a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+              alt="Projek 1"
+            />
 
+            <div class="project-body">
+              <h2>Shoope</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus, in.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section id="contact">
-            <h1>Kontak</h1>
+      <section id="skills">
+        <h1>Skill</h1>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+        </ul>
+      </section>
 
-
-            <form action="" method="get">
-                <label for="nama">Nama:</label>
-                <input type="text" name="nama" id="nama">
-            </form>
-
-        </section>
+      <section id="contact">
+        <h1>Kontak</h1>
+        <form action="" method="get">
+          <label for="nama">Nama:</label>
+          <input type="text" name="nama" id="nama" />
+        </form>
+      </section>
     </main>
-
-</body>
-
+  </body>
 </html>
